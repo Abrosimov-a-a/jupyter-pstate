@@ -122,5 +122,4 @@ if __name__ == '__main__':
     pass
 else:
     # Autoadd NotebookFinder when importing.
-    sys.meta_path.insert(0, PyFinder())
     sys.meta_path.append(NotebookFinder())
